@@ -1,7 +1,7 @@
 // const mongoose = require("mongoose");
 
 // mongoose.connect(
-//   "mongodb+srv://madhakuday:123@cluster0.1oylo.mongodb.net/Json_Test?retryWrites=true&w=majority",
+//   "Database Link",
 //   (err) => {
 //     if (err) {
 //       console.log("error in database ");
@@ -13,7 +13,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb+srv://udaymadhak:madhak123@cluster0.qanm5.mongodb.net/Json_Test?retryWrites=true&w=majority",
+  "Database Link",
   { useNewUrlParser: true },
 
   (err) => {
